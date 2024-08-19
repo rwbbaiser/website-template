@@ -6,8 +6,7 @@ body {
     margin: 0;
     background-image: linear-gradient(
             rgba(255, 255, 255, 0.6),
-            /* White with 50% opacity */ rgba(255, 255, 255, 0.6)
-                /* Consistent color overlay */
+            rgba(255, 255, 255, 0.6)
         ),
         url("https://wallpapercave.com/wp/wp12956159.jpg");
     background-size: cover;
@@ -17,8 +16,8 @@ body {
 
 html,
 body {
-    height: 100%; /* Full height */
-    margin: 0; /* Reset default margin */
+    height: 100%;
+    margin: 0;
     display: flex;
     flex-direction: column;
 }
@@ -60,7 +59,7 @@ header {
 .container-1 {
     display: flex;
     /* align-items: baseline; */
-    justify-content: space-between; /* Distribute space between items */
+    justify-content: space-between;
     /* height: 100%; */
     align-items: stretch;
     height: 100%;
@@ -72,18 +71,6 @@ header {
     justify-content: center;
     padding-bottom: 20px;
 }
-
-/* .container-1>article {
-    flex: 2;
-}
-
-.container-1>aside {
-    flex: 1;
-} */
-
-/* .article-1 {
-    flex: 4;
-} */
 
 .aside-1 {
     background-color: rgba(61, 60, 60, 0.8);
@@ -103,22 +90,12 @@ header {
     max-width: 80%;
 }
 
-/*
-h2 {
-    border: 2px solid #000000;
-    padding: 10px;
-    display: inline-block;
-} */
-
 .aside-2 {
-    /* flex: 2; */
     max-width: 200px;
     padding-left: auto;
-    /* height: 100%; */
 }
 
 .section {
-    /* border: 1px solid grey; */
     padding: 5px;
 }
 
@@ -141,8 +118,6 @@ h2 {
 
 footer {
     display: block;
-    /* clear: both; */
-    /* background-color: hsl(0, 0%, 86%); */
     background-color: hsl(0, 0%, 15%);
     text-align: center;
     padding: 25px;
@@ -177,7 +152,6 @@ footer {
 @media screen and (max-width: 1050px) {
     .grid-1 {
         grid-template-columns: 1fr;
-        /* Collapse to one column on small screens */
     }
 
     .yt-video {
